@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ghibli App</title>
-  <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
-  <link href="style.css" rel="stylesheet" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio Ghibli</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis:400,700"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
+    <div id="method-select">
+      <button id="fetch">Use Fetch API</button>
+      <button id="jquery">Use jQuery</button>
+    </div>
 
-  <div id="method-select">
-    <button id="fetch">Use Fetch API</button>
-    <button id="jquery">Use jQuery</button>
-  </div>
+    <pre id="code"></pre>
+    <div id="root"></div>
 
-  <pre id="code"></pre>
-  <div id="root"></div>
-
-  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-  <script src="scripts.js"></script>
-
-</body>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="scripts.js"></script>
+  </body>
 </html>
