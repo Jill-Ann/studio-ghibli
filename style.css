@@ -27,8 +27,19 @@ h2 {
 
 img {
   display: block;
-  margin: 1rem auto;
+  margin: 4rem auto;
   max-width: 100%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  padding: 0.8rem;
+  border-radius: 15%;
 }
 
 p {
