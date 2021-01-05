@@ -1,4 +1,5 @@
 const main = document.getElementById("root");
+const fetchButton = document.getElementById("fetch");
 const container = document.createElement("div");
 container.setAttribute("class", "container");
 main.appendChild(container);
