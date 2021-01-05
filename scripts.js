@@ -3,7 +3,7 @@ const container = document.createElement("div");
 container.setAttribute("class", "container");
 main.appendChild(container);
 
-const useFetchApi = () => {
+const getFilms = () => {
   fetch("https://ghibliapi.herokuapp.com/films")
     .then((response) => response.json())
     .then((data) => {
