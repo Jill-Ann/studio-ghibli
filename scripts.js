@@ -1,10 +1,6 @@
 const main = document.getElementById("root");
-const logo = document.createElement("img");
-logo.src = "logo.png";
 const container = document.createElement("div");
 container.setAttribute("class", "container");
-
-main.appendChild(logo);
 main.appendChild(container);
 
 const useFetchApi = () => {
